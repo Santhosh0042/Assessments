@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-30T16:47:42 IST" name="Default suite" finished-at="2025-06-30T16:47:48 IST" duration-ms="5638">
+    <groups>
+    </groups>
+    <test started-at="2025-06-30T16:47:42 IST" name="Default test" finished-at="2025-06-30T16:47:48 IST" duration-ms="5638">
+      <class name="Assessment.HtmlTags">
+        <test-method is-config="true" signature="Url()[pri:0, instance:Assessment.HtmlTags@5b529706]" started-at="2025-06-30T16:47:42 IST" name="Url" finished-at="2025-06-30T16:47:47 IST" duration-ms="5101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method signature="Amounts()[pri:0, instance:Assessment.HtmlTags@5b529706]" started-at="2025-06-30T16:47:47 IST" name="Amounts" finished-at="2025-06-30T16:47:48 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amounts -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Assessment.HtmlTags@5b529706]" started-at="2025-06-30T16:47:48 IST" name="Close" finished-at="2025-06-30T16:47:48 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- Assessment.HtmlTags -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
