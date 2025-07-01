@@ -42,7 +42,8 @@ public class PraticePage {
     @Test
 	public void TestCase2() {
 	WebElement TypeToSelectCountries = driver.findElement(By.id("autocomplete"));
-	//TypeToSelectCountries.click();
+	//
+	TypeToSelectCountries.click();
 	TypeToSelectCountries.sendKeys("ind");
 	
 	
