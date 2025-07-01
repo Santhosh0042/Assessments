@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Assessment.AmazonOne">
+      <class name="Assessment.PraticePage">
         <methods>
-          <include name="OpenURL"/>
-          <include name="CloseURL"/>
-          <include name="Locators"/>
+          <include name="Close"/>
+          <include name="TestCase2"/>
+          <include name="OPenURL"/>
         </methods>
-      </class> <!-- Assessment.AmazonOne -->
+      </class> <!-- Assessment.PraticePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
