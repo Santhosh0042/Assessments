@@ -30,8 +30,8 @@ public class Assessment7 {
 			
 		}
 	
-			@Test(priority = 2)
-			public void Test2() {
+			@Test(priority = 1)
+			public void Test1() {
 			
 			Actions actions = new Actions(driver);	
 			
@@ -42,8 +42,8 @@ public class Assessment7 {
 			TopOption.click();
 			}
 			
-			@Test(priority = 3)
-			public void Test3() {
+			@Test(priority = 2)
+			public void Test2() {
 			Actions actions = new Actions(driver);	
 				
 			WebElement MouseOver = driver.findElement(By.id("mousehover"));
