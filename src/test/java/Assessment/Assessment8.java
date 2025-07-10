@@ -16,7 +16,6 @@ import org.testng.annotations.Test;
 
                                     //Info : Assessment 8 - Drag and Drop //
 
-
 public class Assessment8 {
 
 	public class Jqueryui {
