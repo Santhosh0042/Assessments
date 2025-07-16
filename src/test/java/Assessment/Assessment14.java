@@ -12,6 +12,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -55,7 +57,7 @@ public class Assessment14 {
 	@Test(priority = 3)
 	public void TestThree()  {
 	
-		WebElement Organization = driver.findElement(By.xpath("//span[@class='oxd-topbar-body-nav-tab-item' and text()=\"Organization \"]"));
+		WebElement Organization = driver.findElement(By.xpath("//span[normalize-space(text())=\"Organization\"]"));
 		Organization.click();
 		
 		WebElement Location = driver.findElement(By.xpath("//a[@class='oxd-topbar-body-nav-tab-link' and text()='Locations']"));
@@ -69,6 +71,25 @@ public class Assessment14 {
 		JavascriptExecutor Ascendings = (JavascriptExecutor)driver;
 		Ascendings.executeScript("arguments[0].click();", Ascending);
 		
+
 	}
-	
+	@Test(priority = 4)
+	public void TestFour()  {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+		
+		//wait.until(ExpectedConditions.attributeContains(null, null, null))
+		
+		WebElement CountryScollDownClick = driver.findElement(By.xpath("//div[text()='Country']/div"));
+		CountryScollDownClick.click();
+		
+	    //wait.until(ExpectedConditions.attributeContains(null, null, null));
+		
+		WebElement Descending = driver.findElement(By.xpath("//div[@class='--active oxd-table-header-sort-dropdown']//span[text()='Descending']"));
+		
+		//wait.until(ExpectedConditions.attributeContains(null, null, null));
+		
+		JavascriptExecutor Descendings = (JavascriptExecutor)driver;
+		Descendings.executeScript("arguments[0].click();", Descending);
+	}
+		
 }

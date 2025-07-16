@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Assessment.Assessment14">
+      <class name="Assessment.Assessment15$Assessment14">
         <methods>
+          <include name="TestOne"/>
           <include name="Url"/>
-          <include name="testSortLocationsByCountryAscending"/>
         </methods>
-      </class> <!-- Assessment.Assessment14 -->
+      </class> <!-- Assessment.Assessment15$Assessment14 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
